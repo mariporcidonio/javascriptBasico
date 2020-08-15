@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Meu primeiro programa...</title>
-    <style>
-        body {
-            background-color: rgb(255, 251, 0); /*Comentário em CSS*/
-            color: rgb(0, 0, 0);
-            font: normal 20pt Arial;
-        }
-        h1 {
-            color: rgb(0, 0, 0);
-        }
-    </style>
-</head>
-<body>
-    <h1>Olá, mundo!</h1> <!--Comentário em HTML-->
-    <p>Já me livrei da maldição!!</p>
-    <script> //Comentário em JavaScript
-        var n1 = Number(window.prompt('Digite um número: '));
-        var n2 = Number(window.prompt('Digite outro número: '));
-        var s = n1 + n2;
-        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`);//Concatenação
-        //(number + number) para adição
-        //(string + string) para concatenação
-        //Number.parseInt(n) - converte para inteiro
-        //Number.parseFloat(n) - converte para float
-        //Number(n) - o JS identifica automaticamente 
-        //String(n) ou s.toString - converte para string
-        //`...${n}` - entre crases, interpolação
-        //s.lenght - quantidade de caracteres em uma string
-        //s.toUpperCase - tudo p/ maiúsculas
-        //s.toLowerCase - tudo p/ minúsculas
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" href="/aula04/style.css" />
+    <title>Exercício 03</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Olá, mundo!</h1>
+      <p>Já me livrei da maldição <b>=)</b></p>
+    </div>
+    <script>
+      //Comentário em JavaScript
+      var n1 = Number(window.prompt("Digite um número: "));
+      var n2 = Number(window.prompt("Digite outro número: "));
+      var s = n1 + n2;
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`); //Concatenação
+      //(number + number) para adição
+      //(string + string) para concatenação
+      //Number.parseInt(n) - converte para inteiro
+      //Number.parseFloat(n) - converte para float
+      //Number(n) - o JS identifica automaticamente
+      //String(n) ou s.toString - converte para string
+      //`...${n}` - entre crases, interpolação
+      //s.lenght - quantidade de caracteres em uma string
+      //s.toUpperCase - tudo p/ maiúsculas
+      //s.toLowerCase - tudo p/ minúsculas
     </script>
-</body>
+  </body>
 </html>

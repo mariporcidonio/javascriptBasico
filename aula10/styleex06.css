@@ -1,0 +1,16 @@
+body {
+  font: normal 24px Arial;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+div#area{
+  background: rgb(21, 104, 199);
+  color: white;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
