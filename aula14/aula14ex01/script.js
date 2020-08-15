@@ -12,7 +12,7 @@ function contar() {
     //Primeira validação: se ini ou fim ou passo forem do comprimento 0: erro.
     if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
         res.innerHTML = "Impossível contar.";
-    //Senão,
+        //Senão,
     } else {
         //Inicia a contagem:
         res.innerHTML = "Contando: <br>";

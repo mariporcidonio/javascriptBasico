@@ -14,7 +14,7 @@ function carregar() {
         msghora.innerHTML = "Boa tarde!";
         img.src = "fototarde.png";
         document.body.style.background = '#b9846f';
-    } else{
+    } else {
         msghora.innerHTML = "Boa noite!";
         img.src = "fotonoite.png";
         document.body.style.background = '#515154';

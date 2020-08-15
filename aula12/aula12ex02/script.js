@@ -11,7 +11,7 @@ function verificar() {
         var idade = ano - Number(fano.value);
         var genero = '';
         var img = document.createElement('img');
-        img.setAttribute('id','img');
+        img.setAttribute('id', 'img');
 
         if (fsex[0].checked) {
             genero = 'Homem';
@@ -20,13 +20,13 @@ function verificar() {
                 img.setAttribute('src', 'foto-bebe-m.png');
             } else if (idade < 21) {
                 //Jovem
-                img.setAttribute('src','foto-jovem-m.png');
+                img.setAttribute('src', 'foto-jovem-m.png');
             } else if (idade < 50) {
                 //Adulto
-                img.setAttribute('src','foto-adulto-m.png');
+                img.setAttribute('src', 'foto-adulto-m.png');
             } else {
                 //Idoso
-                img.setAttribute('src','foto-idoso-m.png');
+                img.setAttribute('src', 'foto-idoso-m.png');
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher';

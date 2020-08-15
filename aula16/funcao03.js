@@ -1,4 +1,4 @@
-let compra = function(x) {
+let compra = function (x) {
     if (x >= 100) {
         let result = `O valor da compra foi de R$${x}. Você ganhou um refrigerante!`;
         return result;

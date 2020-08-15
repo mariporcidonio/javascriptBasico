@@ -1,4 +1,4 @@
-function verificar(){
+function verificar() {
     var pais = window.document.querySelector('input#nac').value.toLowerCase();
     var res = window.document.querySelector('p#res');
     if (pais != 'brasil') {
