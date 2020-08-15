@@ -1,0 +1,11 @@
+EXERCÍCIO 1
+
+- Se caixa = vazio -> ERRO: Impossível contar;
+- Se passo = 0, considerar passo = 1;
+- Emoji;
+
+Início
+Fim
+Passo
+Contar
+Contando

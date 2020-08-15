@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+          background: rgb(68, 125, 199);
+          color: white;
+          font: normal 14pt Arial; 
+        }
+    </style>
+</head>
+<body>
+   <h1>Iniciando estudos com DOM</h1> 
+   <p>Aqui vai o resultado</p>
+   <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+   <div class="msg">Clique em mim</div>
+   <script>
+       /*
+       window.document.writeln('Olá Mundo!');
+       window.document.writeln(window.document.charset); - formato de codificação de caracteres na página
+       window.document.writeln(window.document.URL); - mostra o endereço da página
+       window.document.writeln(window.navigator.appName); mostra o nome do navegador utilizado no acesso
+       var p1 = window.document.getElementsByTagName('p')[0]; - getElements seleciona vários elementos. É necessário utilizar o colchete
+       var p2 = window.document.getElementsByTagName('p')[1];
+       var corpo = window.document.body;
+       var d = window.document.getElementById('msg');
+       window.document.write('Está escrito assim: ' + p1.innerText); - concatena com o texto do parágrafo sem o chield
+       window.document.write('Texto do p2 com formatação: ' + p2.innerHTML); - concatena com o texto do parágrafo sem o chield
+       p1.style.color = "black"; - muda a cor do texto do p1
+       corpo.style.background = "blue"; - muda a cor do fundo da página
+       d.style.background = "green";
+       d.innerText = "Está escrito: Clique em mim"; - troca o texto que está na div
+       window.document.getElementById('msg').innerText = 'Olá'; - troca o texto que está na div
+       var d = window.document.getElementsByName('msg')[0];
+       d.innerText = 'Olá!';
+       var e = window.document.getElementsByClassName('msg')[0];
+       e.innerText = 'Olá!';
+       */
+       var d = window.document.querySelector('div.msg');
+       d.style.background = 'blue';
+   </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+EXERCÍCIO 2
+
+- Não pode deixar o input vazio;
+
+Número
+Gerar tabuada
+Select com os resultados (Digite um número acima)

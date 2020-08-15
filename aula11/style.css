@@ -1,0 +1,19 @@
+body {
+    font: normal 12pt Arial;
+    text-align: center;
+}
+p {
+    font: bold 16pt Arial;
+    padding-top: 10px;
+}
+div#content {
+    background: #6db2f3;
+    width: 350px;
+    height: 150px;
+    margin-top: -15px;
+    margin-left: -3px;
+    padding-left: 10px;
+}
+p#res {
+   font: normal 12pt Arial;
+}
